@@ -1,7 +1,9 @@
 # dawn
 
 
-Docker Images stack for Stanford DAWN project
+Docker Images stack for [Stanford DAWN](http://dawn.cs.stanford.edu/) project
+
+![DAWN Stack](DAWNStack.png)
 
 - Macrobase sandbox created
 
@@ -37,3 +39,13 @@ Then just open [http://localhost:8080](http://localhost:8080) to use macrobase
 Type in `Based Query` with following SQL statement and start play. 
 
     select * from sensor_data_demo;
+    
+    
+## [snorkel](https://hazyresearch.github.io/snorkel/)
+
+### What is Snorkel
+
+Snorkel is a system for rapidly creating, modeling, and managing training data, 
+currently focused on accelerating the development of structured 
+or “dark” data extraction applications for domains in 
+which large labeled training sets are not available or easy to obtain.
